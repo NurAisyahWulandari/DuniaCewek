@@ -1,0 +1,267 @@
+*{
+	list-style-type: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+}
+
+.Header{
+	padding: 10px;
+	margin: auto;
+	width: 100%;
+	background-color: white;
+	overflow: hidden;
+}
+
+.header-logo{
+	float: left;
+	width: 20%;
+}
+
+.header-logo img {
+	width: 100%
+}
+
+.header-text{
+	float: right;
+	width: 70%;
+
+}
+
+.header-text h1, p{
+	text-align: center;
+}
+
+.menu{
+	padding: 10px;
+	margin: auto;
+	background-color: #392467;
+	width: 100%;
+	overflow: hidden;
+}
+
+.menu a{
+	text-decoration: none;
+	color: white;
+	margin: 0 7px;
+	font-weight: bold;
+}
+
+.menu-kiri{
+	float: left;
+	width: 70%;
+}
+
+.menu-kanan{
+	float: right;
+	width: 30%;
+	text-align: right;
+	font-weight: normal;
+	color:white;
+}
+
+.menu-kanan a{
+	color:white;
+	text-decoration: underline;
+}
+
+
+.main-content{
+	/*padding: 10px;*/
+	width: 100%;
+	margin: auto;
+	background-color: whitesmoke;
+	overflow: hidden;
+
+}
+
+.navigate{
+	float: left;
+	width:20%;
+}
+
+.navigate p{
+	margin: 10px 10px;
+}
+
+.article{
+	background-color: white;
+	float: left;
+	width: 80%;
+	min-height: 450px;
+}
+
+.nonarticle{
+	background-color: white;
+	float: left;
+	width: 40%;
+	min-height: 400px;
+}
+
+.paginate{
+	width: 60%;
+	margin: auto;
+	text-align: center;
+	font-size: 20px;
+}
+
+.nonarticle img{
+	width: 35%;
+	float: left;
+}
+
+.nonarticle p{
+	margin: 10px;
+	text-align: justify;
+	overflow: hidden;
+}
+
+.nonarticle a{
+	font-size: 15px;
+}
+
+.footer p{
+	text-align: center;
+}
+
+.article-product{
+	background-color: white;
+	float: right;
+	width: 80%;
+	min-height: 450px;
+}
+
+.article-product img{
+	width: 20%;
+	margin: 10px 0 10px;
+}
+
+.footer{
+	width: 100%;
+	padding: 5px 10px;
+	margin: auto;
+	background-color:#392467;
+	color: #fff;
+}
+
+table {
+	/*background-color: whitesmoke;*/
+	padding:5px;
+	/*font-weight:bold;*/
+}
+
+.login-table {
+	margin: auto;
+	margin-top: 10px;
+	width: 50%;
+	text-align: center;
+	border:dashed #CCC 2px;
+	overflow: visible;
+	overflow-x: hidden;
+	padding: 5px;
+	text-shadow: 0 1px 0 #fff;
+}
+
+.login-table img{
+	width: 30%;
+	margin-left: 35%;
+	padding: 5px;
+	border: dashed #392467 1px;
+}
+
+.login-table table{
+	margin:auto;
+	/*background: gray;*/
+	padding: 15px;
+}
+
+.login-table h1{
+	color: #5D3587;
+}
+
+.login-table input{
+	margin-bottom: 5px;
+	width: 100%;
+	padding: 5px;
+}
+
+.signup-table {
+	margin: auto;
+	margin-top: 10px;
+	width: 25%;
+	text-align:center;
+	border:dashed #CCC 2px;
+	overflow: visible;
+	overflow-x: hidden;
+	padding: 15px;
+	text-shadow: 0 1px 0 #fff;
+}
+
+.signup-table table{
+	margin:auto;
+	padding: 15px;
+}
+
+.signup-table h1{
+	color: #392467;
+}
+
+.signup-table input{
+	margin-bottom: 5px;
+	width: 100%;
+	padding: 5px;
+}
+
+#warning{
+	background-color: #392467;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+#danger{
+	background-color: red;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+#default{
+	background-color: grey;
+	border-radius: 5px;
+	color: white;
+	padding: 20px 40px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+#kembali{
+	margin-top: 10px;
+	background-color: grey;
+	border-radius: 5px;
+	color: white;
+	padding: 7px 15px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	cursor: pointer;
+}
